@@ -12,15 +12,20 @@
       "19": "images/icon_19.png",         
       "38": "images/icon_38.png"          
     },
-    "default_title": "Gumtree Checker"
+    "default_title": "Gumtree Checker",
+    "default_popup": "popup.html"
   },
   "permissions": [
-        "tabs",
+    "tabs",
 		"notifications",
 		"http://*/*"
    ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "jquery.js",
+      "lib.js",
+      "background.js"
+    ]
   },
   "manifest_version": 2
 }
