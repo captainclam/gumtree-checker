@@ -1,4 +1,4 @@
-var app = (function() {
+app = (function() {
 
   var parseResponse = function(data) {
   	var topAds = data.find('#srchrslt-adtable-topads li');
